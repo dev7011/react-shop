@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="App" style= { { display: "flex", justifyContent: "center", alignItems: "Center", height: "100vh" }}>
+      <header className="App-header" style= { { display: "flex", justifyContent: "center", alignItems: "Center" }} >
+        <img src={logo} className="App-logo" style= { { height: "50px"}} alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
